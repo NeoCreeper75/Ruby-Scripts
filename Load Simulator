@@ -1,0 +1,13 @@
+# Remember, this is just a simulator.
+
+x = -25
+
+until x == 100
+	x += 25
+	print "#{x}%---"
+	sleep 3
+end
+
+print "Load complete."
+
+gets()
